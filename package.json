@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-eslift",
-  "version": "0.3.0",
+  "version": "1.3.0",
   "repository": "github:eslift/eslint-config-eslift",
   "main": "index.js",
   "files": [
