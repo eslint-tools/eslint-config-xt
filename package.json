@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-xt",
-  "version": "0.3.0",
+  "version": "1.3.0",
   "repository": "github:eslint-tools/eslint-config-xt",
   "main": "index.js",
   "files": [
