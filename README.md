@@ -1,6 +1,6 @@
 # ESLint Config
 
-ESLint configuration used for TypeScript projects.
+Extendable ESLint configuration for TypeScript projects.
 
 ## Install
 
@@ -10,37 +10,13 @@ $ yarn add --dev eslint-config-xt
 
 ## Usage
 
-Modify `eslintConfig` in `package.json` as follows.
-
-### TypeScript
+Modify your ESLint config as follows:
 
 ```json
 {
-  "name": "cool-node-server",
+  "name": "my-node-project",
   "eslintConfig": {
     "extends": "xt"
-  }
-}
-```
-
-### TypeScript + React
-
-```json
-{
-  "name": "awesome-react-website",
-  "eslintConfig": {
-    "extends": "xt/react"
-  }
-}
-```
-
-### TypeScript + React Native
-
-```json
-{
-  "name": "amazing-native-app",
-  "eslintConfig": {
-    "extends": "xt/react-native"
   }
 }
 ```
