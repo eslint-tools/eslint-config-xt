@@ -21,12 +21,14 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      'warn',
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
       {
-        ignoreRestSiblings: true,
-        argsIgnorePattern: '^_',
-      },
+        "args": "after-used",
+        "ignoreRestSiblings": true,
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_"
+      }
     ],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/prefer-interface': 'off',
