@@ -55,9 +55,10 @@ module.exports = {
         noUselessIndex: true,
       },
     ],
+    // TODO: Add `groups: ["builtin", "external", "parent", "sibling", "index", "type"]`
     'import/order': ['warn', { 'newlines-between': 'always' }],
 
-    // Custom
+    // TODO: Move this block to the top
     'array-callback-return': 'warn',
     curly: 'warn',
     'dot-notation': 'warn',
@@ -67,12 +68,12 @@ module.exports = {
     'no-alert': 'warn',
     'no-console': 'warn',
     'no-debugger': 'warn',
+    // TODO: Use import/no-duplicates instead
     'no-duplicate-imports': ['warn', { includeExports: true }],
     'no-floating-decimal': 'warn',
     'no-new': 'warn',
     'no-proto': 'warn',
     'no-return-assign': 'warn',
-    'no-underscore-dangle': ['warn', { allowAfterThis: true }],
     'no-unneeded-ternary': 'warn',
     'one-var': ['warn', 'never'],
     'prefer-arrow-callback': 'warn',
